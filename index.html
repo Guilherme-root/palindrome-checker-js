@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Palíndromo Web</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Isso é um Palíndromo?</h1>
+      <div class="palindrome-div">
+        <form action="#" method="get">
+          <label>Digite um texto para verificar:</label>
+          <br /><input type="text" name="palindromo" class="palindrome-input"id="text-input" />
+          <button type="submit" class="palindrome-btn" name="palindromo" id="check-btn">
+            Verificar
+          </button>
+          <div class="results-div" id="result">
+            <p class="user-input"></p>
+          </div>
+        </form>
+      </div>
+      <div class="palindrome-definition-div">
+        <p class="palindrome-definition">
+          <span role="img" aria-label="light-bulb">💡</span>
+          Um
+          <dfn>Palíndromo</dfn>
+          é uma palavra ou frase que é escrita da mesma forma tanto de frente
+          para trás quanto de trás para frente, ignorando a pontuação, a
+          capitalização e os espaços.
+        </p>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
