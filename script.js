@@ -19,7 +19,7 @@ btnAlert.addEventListener('click', (event) => {
 
     const isPalindromeResult = isPalindrome(userInput);
 
-    resultText.innerHTML = `<p><strong>${userInput}</strong>${isPalindromeResult ? ' is' : ' is not'} a palindrome</p>`;
+    resultText.innerHTML = `<p><strong>${userInput}</strong>${isPalindromeResult ? ' é' : ' não é'} um palíndromo</p>`;
 });
 
 inputTextElement.addEventListener('input', () => {
